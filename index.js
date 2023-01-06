@@ -28,7 +28,7 @@ bot.onText(/\/start/, (msg, match) => {
     // of the message
 
     const chatId = msg.chat.id;
-    const resp = '환영합니다. 크몽봇입니다.';
+    const resp = '환영합니다.';
 
     // send back the matched "whatever" to the chat
     bot.sendMessage(chatId, resp);
